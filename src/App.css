@@ -1,32 +1,193 @@
-.App {
-  text-align: center;
+/* header */
+.header-section {
+  height: 500px;
+  position: relative;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.has-bg {
+  background-image: linear-gradient(to left top, #0B3C5D, #328CC1);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.no-bg {
+  color: #0B3C5D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-title {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.main-title h1 {
+  font-size: 4em;
+  margin: 10px 0;
+}
+
+.important-info {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.sub-info {
+  opacity: .85;
+}
+
+a {
+  color: #328CC1 !important;
+  text-decoration: none;
+}
+
+/* sections */
+.content-section {
+  padding: 50px 5% 50px 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+
+
+/* Labels and icons */
+.section-label {
+  flex-basis: 25%;
+  flex-shrink: 0;
+  flex-grow: 1;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.section-icon {
+  width: 40px;
+  display: block;
+  margin: 10px 0;
+  stroke: white;
+}
+
+.section-icon * {
+  stroke: white !important;
+}
+
+
+.no-bg .section-icon,
+.no-bg .section-icon * {
+  stroke: #0B3C5D !important;
+}
+
+.section-icon svg {
+  height: 100%;
+  width: 100%;
+}
+
+.contact .contact-icon * {
+  stroke: white !important;
+  fill: #0B3C5D;
+}
+
+
+.content {
+  flex: 1 0 auto;
+  min-width: 250px;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.divider {
+  width: 50px;
+  max-width: 100%;
+  border-bottom: 4px solid white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.no-bg .divider {
+  border-color: #0B3C5D;
+}
+
+
+/* experience and education */
+.experience {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #328CC1;
+  max-width: 700px;
+  width: 100%;
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+}
+
+.experience-date {
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+
+.experience-position {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.experience-desc {
+  margin: 10px 0;
+}
+
+/* skills */
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-set {
+  flex: 1 0 auto;
+  min-width: 250px;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.skill-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0B3C5D;
+  margin-bottom: 10px;
+}
+
+.skill-meter {
+  background-color: #deeef5;
+  height: 15px;
+  width: 80%;
+}
+
+.skill-meter-inner {
+  height: 100%;
+  background-image: linear-gradient(to left top, #0B3C5D, #328CC1)
+}
+
+/* contact */
+.contact {
+  border-top: 1px solid rgba(11,60,93, .5);
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.social-icon svg {
+  width: 100%;
+  height: 100%;
 }
