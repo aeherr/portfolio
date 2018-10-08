@@ -145,7 +145,7 @@ export default class Home extends Component {
                         <div className="experience">
                             <div className="important-info">Pokemon Attack Simulator</div>
                             <div className="experience-desc sub-info">
-                                In college I took a course to learn SAGE, a Python based mathematics software. For my final project I created a Pokemon Attack Simulator using SAGE, which used an XML file as a psuedo-database.
+                                In college I took a course to learn SAGE, a Python based mathematic programming language. For my final project I created a Pokemon Attack Simulator using SAGE, which used an XML file as a pseudo-database.
                                 <br/><br/>
                                 <a href="https://github.com/aedgar93/480_Final" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
