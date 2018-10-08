@@ -14,16 +14,16 @@ export default class Home extends Component {
                 <div className="content-section no-bg">
                     <div className="section-label">
                         About
-                        <div className="divider"></div>
                         <SVG src="./assets/profile.svg" className="section-icon"/>
+                        <div className="divider"></div>
                     </div>
                     <div className="content">Hi. I still need to put stuff in this section, but I hate writing about myself. After all, I'm a software engineer, not an auto-biographist</div>
                 </div>
                 <div className="content-section has-bg">
                     <div className="section-label">
                         Experience
-                        <div className="divider"></div>
                         <SVG src="./assets/experience.svg" className="section-icon"/>
+                        <div className="divider"></div>
                     </div>
                     <div className="content">
                         <div className="experience">
@@ -56,8 +56,8 @@ export default class Home extends Component {
                 <div className="content-section no-bg">
                     <div className="section-label">
                         Skillset
-                        <div className="divider"></div>
                         <SVG src="./assets/skills.svg" className="section-icon"/>
+                        <div className="divider"></div>
                     </div>
                     <div className="content skills">
                         <div className="skill-set">
@@ -89,8 +89,8 @@ export default class Home extends Component {
                 <div className="content-section has-bg">
                     <div className="section-label">
                         Education
-                        <div className="divider"></div>
                         <SVG src="./assets/education.svg" className="section-icon"/>
+                        <div className="divider"></div>
                     </div>
                     <div className="content">
                         <div className="experience">
@@ -155,8 +155,8 @@ export default class Home extends Component {
                 <div className="content-section contact no-bg">
                     <div className="section-label">
                         Contact
-                        <div className="divider"></div>
                         <SVG src="./assets/contact.svg" className="section-icon contact-icon"/>
+                        <div className="divider"></div>
                     </div>
                     <div className="content">
                         <div className="contact-label sub-info">Let's Talk!</div>

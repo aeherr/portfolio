@@ -89,17 +89,17 @@ a {
 
 .content {
   flex: 1 0 auto;
-  min-width: 250px;
+  min-width: 300px;
   width: 75%;
   box-sizing: border-box;
 }
 
 .divider {
-  width: 50px;
+  width: 150px;
   max-width: 100%;
   border-bottom: 4px solid white;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .no-bg .divider {
