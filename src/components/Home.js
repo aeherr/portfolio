@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Skill from './Skill'
+import Experience from './Experience'
 import SVG from 'react-inlinesvg'
 
 export default class Home extends Component {
@@ -26,31 +28,11 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content">
-                        <div className="experience">
-                            <div className="important-info">Tang Capital Management</div>
-                            <div className="experience-date sub-info">February 2018 - Preset</div>
-                            <div className="experience-position">Software Engineer</div>
-                        </div>
-                        <div className="experience">
-                            <div className="important-info">Newton Software</div>
-                            <div className="experience-date sub-info">February 2016 - July 2017</div>
-                            <div className="experience-position">Full Stack Software Engineer</div>
-                        </div>
-                        <div className="experience">
-                            <div className="important-info">Xpanxion</div>
-                            <div className="experience-date sub-info">December 2014 - February 2016</div>
-                            <div className="experience-position">Senior Software Development Engineer in Test</div>
-                        </div>
-                        <div className="experience">
-                            <div className="important-info">Bulb Inc</div>
-                            <div className="experience-date sub-info">July 2013 - December 2014</div>
-                            <div className="experience-position">Software Engineer</div>
-                        </div>
-                        <div className="experience">
-                            <div className="important-info">MedBridge Education LLC</div>
-                            <div className="experience-date sub-info">April 2012 - April 2013</div>
-                            <div className="experience-position">Software Developer</div>
-                        </div>
+                        <Experience title="Tang Capital Management" date="February 2018 - Preset" description="Software Engineer" />
+                        <Experience title="Newton Software" date="February 2016 - July 2017" description="Full Stack Software Engineer" />
+                        <Experience title="Xpanxion" date="December 2014 - February 2016" description="Senior Software Development Engineer in Test" />
+                        <Experience title="Bulb Inc" date="July 2013 - December 2014" description="Software Engineer" />
+                        <Experience title="MedBridge Education LLC" date="April 2012 - April 2013" description="Software Developer" />
                     </div>
                 </div>
                 <div className="content-section no-bg">
@@ -60,30 +42,12 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content skills">
-                        <div className="skill-set">
-                            <div className="skill-label">Javascript</div>
-                            <div className="skill-meter"><div className="skill-meter-inner" style={{"width": "93%"}}></div></div>
-                        </div>
-                        <div className="skill-set">
-                            <div className="skill-label">JAVA</div>
-                            <div className="skill-meter"><div className="skill-meter-inner" style={{"width": "70%"}}></div></div>
-                        </div>
-                        <div className="skill-set">
-                            <div className="skill-label">Angular JS 1</div>
-                            <div className="skill-meter"><div className="skill-meter-inner" style={{"width": "90%"}}></div></div>
-                        </div>
-                        <div className="skill-set">
-                            <div className="skill-label">React</div>
-                            <div className="skill-meter"><div className="skill-meter-inner" style={{"width": "50%"}}></div></div>
-                        </div>
-                        <div className="skill-set">
-                            <div className="skill-label">CSS/SCSS</div>
-                            <div className="skill-meter"><div className="skill-meter-inner" style={{"width": "80%"}}></div></div>
-                        </div>
-                        <div className="skill-set">
-                            <div className="skill-label">Selenium</div>
-                            <div className="skill-meter"><div className="skill-meter-inner" style={{"width": "85%"}}></div></div>
-                        </div>
+                        <Skill label="Javascript" percent="93" />
+                        <Skill label="Java" percent="70" />
+                        <Skill label="Angular JS 1" percent="90" />
+                        <Skill label="React" percent="50" />
+                        <Skill label="CSS/SCSS" percent="80" />
+                        <Skill label="Selenium" percent="85" />
                     </div>
                 </div>
                 <div className="content-section has-bg">
@@ -93,16 +57,8 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content">
-                        <div className="experience">
-                            <div className="important-info">University of Washington</div>
-                            <div className="experience-date sub-info">2013</div>
-                            <div className="experience-position">Bachelors of Arts - Mathematics</div>
-                        </div>
-                        <div className="experience">
-                            <div className="important-info">Wenatchee Valley College</div>
-                            <div className="experience-date sub-info">2010</div>
-                            <div className="experience-position">Associates of Arts and Science</div>
-                        </div>
+                        <Experience title="University of Washington" date="2013" description="Bachelor of Arts - Mathematics" />
+                        <Experience title="Wenatchee Valley College" date="2010" description="Associate of Arts and Science" />
                     </div>
                 </div>
                 <div className="content-section no-bg">
