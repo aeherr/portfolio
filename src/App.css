@@ -51,12 +51,13 @@ a {
 
 /* Labels and icons */
 .section-label {
-  flex-basis: 25%;
+  flex-basis: 30%;
   flex-shrink: 0;
   flex-grow: 1;
   box-sizing: border-box;
   font-weight: bold;
   font-size: 2em;
+  padding-right: 10px;
 }
 
 .section-icon {
@@ -90,7 +91,7 @@ a {
 .content {
   flex: 1 0 auto;
   min-width: 300px;
-  width: 75%;
+  width: 70%;
   box-sizing: border-box;
 }
 
