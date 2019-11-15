@@ -19,7 +19,11 @@ export default class Home extends Component {
                         <SVG src="./assets/profile.svg" className="section-icon"/>
                         <div className="divider"></div>
                     </div>
-                    <div className="content">Hi. I still need to put stuff in this section, but I hate writing about myself. After all, I'm a software engineer, not an auto-biographist</div>
+                    <div className="content description">
+                        Hi there! My name is Anna, I'm a Software Engineer with a love for all things Front End. Most engineers may loath dealing with picky CSS, but that's my happy place! I have 5 years of experience as a Web and Mobile Application Developer with a 1 year stint as a Software Development Engineer in Test.
+                        <br/><br/>
+                        When I'm not at work, you can find me making my own costumes, hanging out at the beach, or playing pub trivia. In 2017 I took 6 months off to travel around the Mediterranean before I made the move from Colorado to California.
+                    </div>
                 </div>
                 <div className="content-section has-bg">
                     <div className="section-label">
@@ -43,11 +47,11 @@ export default class Home extends Component {
                     </div>
                     <div className="content skills">
                         <Skill label="Javascript" percent="93" />
-                        <Skill label="Java" percent="70" />
+                        <Skill label="Node JS" percent="70" />
                         <Skill label="Angular JS 1" percent="90" />
-                        <Skill label="React" percent="50" />
+                        <Skill label="React/React Native" percent="75" />
                         <Skill label="CSS/SCSS" percent="80" />
-                        <Skill label="Selenium" percent="85" />
+                        <Skill label="Java" percent="50" />
                     </div>
                 </div>
                 <div className="content-section has-bg">
@@ -68,6 +72,17 @@ export default class Home extends Component {
                     </div>
                     <div className="content">
                         <div className="experience">
+                            <div className="important-info">Work Buddies</div>
+                            <div className="experience-desc sub-info">
+                                Please note, this is a work in progress... Work Buddies is a web application built using React and Firebase that pairs up coworkers on a weekly basis to do something together, like play ping pong or foosball. I hardly ever interact with anyone outside of my team at work and I wanted to create a tool to encourage people to get to know the rest of their office.
+                                <br/>
+                                <br/>
+                                <a href="https://github.com/aedgar93/WorkBuddies" target="_blank" rel="noopener noreferrer">Source Code</a>
+                            </div>
+
+                        </div>
+
+                        <div className="experience">
                             <div className="important-info">Medium Clone</div>
                             <div className="experience-desc sub-info">
                                 This project is a React based web application with Express, NodeJS, and MongoDB on the server side. The goal was to implement the basic features from Medium.com. Please <a href="https://github.com/aedgar93/medium-clone" target="_blank" rel="noopener noreferrer">click here</a> for more detailed information on the features I built for this project.
@@ -76,6 +91,17 @@ export default class Home extends Component {
                                 <a href="https://github.com/aedgar93/medium-clone" target="_blank" rel="noopener noreferrer">Source Code</a>
                                 <br/>
                                 <a href="https://anna-medium-clone.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a>
+                            </div>
+
+                        </div>
+
+                        <div className="experience">
+                            <div className="important-info">Food Tracker</div>
+                            <div className="experience-desc sub-info">
+                                Food Tracker is a simple app that allows users to upload pictures of their meals and rate them. They can also view a list of all of their saved meals. This was my first project using Swift. I am planning on updating the app so that data is stored on firebase and users can log in other devices.
+                                <br/>
+                                <br/>
+                                <a href="https://github.com/aedgar93/FoodTracker" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
 
                         </div>

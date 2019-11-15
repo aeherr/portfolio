@@ -93,6 +93,9 @@ a {
   min-width: 300px;
   width: 70%;
   box-sizing: border-box;
+  overflow: hidden;
+  word-wrap: wrap;
+  line-height: 1.5em;
 }
 
 .divider {
