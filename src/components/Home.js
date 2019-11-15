@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Skill from './Skill'
 import Experience from './Experience'
 import SVG from 'react-inlinesvg'
+import ViewDemo from './ViewDemo'
 
 export default class Home extends Component {
     render() {
@@ -89,6 +90,8 @@ export default class Home extends Component {
                                 <br/>
                                 <br/>
                                 <a href="https://github.com/aedgar93/show-me-the-otters" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <br/>
+                                <ViewDemo source="./assets/ShowMeTheOtters.mov"/>
                             </div>
 
                         </div>
@@ -116,6 +119,9 @@ export default class Home extends Component {
                                 <br/>
                                 <br/>
                                 <a href="https://github.com/aedgar93/FoodTracker" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <br/>
+                                <ViewDemo source="./assets/FoodTracker.mov"/>
+
                             </div>
 
                         </div>
