@@ -41,7 +41,7 @@ export default class Home extends Component {
                 </div>
                 <div className="content-section no-bg">
                     <div className="section-label">
-                        Skillset
+                        Skill Set
                         <SVG src="./assets/skills.svg" className="section-icon"/>
                         <div className="divider"></div>
                     </div>
@@ -83,14 +83,28 @@ export default class Home extends Component {
                         </div>
 
                         <div className="experience">
+                            <div className="important-info">Show me the Otters</div>
+                            <div className="experience-desc sub-info">
+                                This project is a Flutter/Dart app that can be run on iOS and Android. I created this project in order to learn Flutter. It is a simple application that allows users to select their favorite animal and see what zoos across America have that animal. I found the data by looking at zoo's websites and manually inputting it in to firebase, so it may not be up to date or accurate.
+                                <br/>
+                                <br/>
+                                <a href="https://github.com/aedgar93/show-me-the-otters" target="_blank" rel="noopener noreferrer">Source Code</a>
+                            </div>
+
+                        </div>
+
+                        <div className="experience">
                             <div className="important-info">Medium Clone</div>
                             <div className="experience-desc sub-info">
                                 This project is a React based web application with Express, NodeJS, and MongoDB on the server side. The goal was to implement the basic features from Medium.com. Please <a href="https://github.com/aedgar93/medium-clone" target="_blank" rel="noopener noreferrer">click here</a> for more detailed information on the features I built for this project.
                                 <br/>
                                 <br/>
+                                Please note the demo may be slow to load. I am hosting it for free on Heroku, so it takes a minute to fire up.
+                                <br/>
+                                <br/>
                                 <a href="https://github.com/aedgar93/medium-clone" target="_blank" rel="noopener noreferrer">Source Code</a>
                                 <br/>
-                                <a href="https://anna-medium-clone.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a>
+                                <a href="https://anna-medium-clone.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
                             </div>
 
                         </div>
