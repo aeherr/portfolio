@@ -56,6 +56,9 @@ export default class Home extends Component {
                         <Skill label="React/React Native" percent="75" />
                         <Skill label="CSS/SCSS" percent="80" />
                         <Skill label="Java" percent="50" />
+                        <Skill label="Python" percent="25" />
+                        <Skill label="MySQL, GraphQL, MongoDB" percent="35" />
+
                     </div>
                 </div>
                 <div className="content-section has-bg">
