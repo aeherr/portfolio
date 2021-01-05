@@ -10,7 +10,7 @@ export default class Home extends Component {
             <div className="home">
                 <div className="header-section has-bg">
                     <div className="main-title">
-                        <h1>Anna Edgar Herr</h1>
+                        <h1>Anna E Herr</h1>
                         <div className="important-info sub-info">Software Engineer</div>
                     </div>
                 </div>
@@ -79,12 +79,28 @@ export default class Home extends Component {
                     </div>
                     <div className="content">
                         <div className="experience">
+                            <div className="important-info">Medium Clone</div>
+                            <div className="experience-desc sub-info">
+                                This project is a React based web application with Express, NodeJS, and MongoDB on the server side. The goal was to implement the basic features from Medium.com. Please <a href="https://github.com/aedgar93/medium-react-new" target="_blank" rel="noopener noreferrer">click here</a> for more detailed information on the features I built for this project.
+                                <br/>
+                                <br/>
+                                Please note the demo may be slow to load. I am hosting it for free on Heroku, so it takes a minute to fire up.
+                                <br/>
+                                <br/>
+                                <a href="https://github.com/aedgar93/medium-react-new" target="_blank" rel="noopener noreferrer">Source Code</a><br/>
+                                <a href="https://github.com/aedgar93/medium-clone/tree/api" target="_blank" rel="noopener noreferrer">Server Code</a>
+                                <br/>
+                                <a href="https://medium-clone-2.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                            </div>
+
+                        </div>
+                        <div className="experience">
                             <div className="important-info">Work Buddies</div>
                             <div className="experience-desc sub-info">
                                 Please note, this is a work in progress... Work Buddies is a web application built using React and Firebase that pairs up coworkers on a weekly basis to do something together, like play ping pong or foosball. I hardly ever interact with anyone outside of my team at work and I wanted to create a tool to encourage people to get to know the rest of their office.
                                 <br/>
                                 <br/>
-                                <a href="https://github.com/aedgar93/WorkBuddies" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aedgar93/WorkBuddies/tree/ae-personal" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
 
                         </div>
@@ -102,21 +118,6 @@ export default class Home extends Component {
 
                         </div>
 
-                        <div className="experience">
-                            <div className="important-info">Medium Clone</div>
-                            <div className="experience-desc sub-info">
-                                This project is a React based web application with Express, NodeJS, and MongoDB on the server side. The goal was to implement the basic features from Medium.com. Please <a href="https://github.com/aedgar93/medium-clone" target="_blank" rel="noopener noreferrer">click here</a> for more detailed information on the features I built for this project.
-                                <br/>
-                                <br/>
-                                Please note the demo may be slow to load. I am hosting it for free on Heroku, so it takes a minute to fire up.
-                                <br/>
-                                <br/>
-                                <a href="https://github.com/aedgar93/medium-clone" target="_blank" rel="noopener noreferrer">Source Code</a>
-                                <br/>
-                                <a href="https://anna-medium-clone.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                            </div>
-
-                        </div>
 
                         <div className="experience">
                             <div className="important-info">Food Tracker</div>
@@ -168,7 +169,7 @@ export default class Home extends Component {
                     </div>
                     <div className="content">
                         <div className="contact-label sub-info">Let's Talk!</div>
-                        <div className="important-info">annadedgar@outlook.com</div>
+                        <div className="important-info">anna.edgar.herr@gmail.com</div>
                         <div className="social-icons">
                             <a href="https://github.com/aedgar93" target="_blank" rel="noopener noreferrer"><SVG src="./assets/github.svg" className="social-icon"/></a>
                             <a href="https://www.linkedin.com/in/annadedgar/" target="_blank" rel="noopener noreferrer"><SVG src="./assets/linkedin.svg" className="social-icon"/></a>
