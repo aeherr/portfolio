@@ -26,7 +26,7 @@ export default class Home extends Component {
                         I'm always looking for opportunities in my career to learn new things and expand my skills outside of web development.
                         A few examples of this include running customer training webinars, hosting customer Q&amp;A sessions, and travelling to conferences to assist the sales team by answering technical questions for potential customers. I have even had the opportunity to make a few sales myself!<br/><br/>
 
-                        I graduated from the University of Washington with a degree in Mathematics in 2012. While I was at UW I also took a variety of Computer Science, Applied Mathematics, Physics, and other Engineering courses. <br/><br/>
+                        I graduated from the University of Washington with a degree in Mathematics in 2013. While I was at UW I also took a variety of Computer Science, Applied Mathematics, Physics, and other Engineering courses. <br/><br/>
                     </div>
                 </div>
                 <div className="content-section has-bg">
@@ -36,7 +36,7 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content">
-                        <Experience title="Tang Capital Management" date="February 2018 - Present" description="Lead Software Engineer" />
+                        <Experience title="Tang Capital Management" date="February 2018 - March 2021" description="Lead Software Engineer" />
                         <Experience title="Newton Software" date="February 2016 - July 2017" description="Full Stack Software Engineer" />
                         <Experience title="Xpanxion" date="December 2014 - February 2016" description="Senior Software Development Engineer in Test" />
                         <Experience title="Bulb Inc" date="July 2013 - December 2014" description="Software Engineer" />
