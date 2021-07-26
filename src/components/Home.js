@@ -87,8 +87,8 @@ export default class Home extends Component {
                                 Please note the demo may be slow to load. I am hosting it for free on Heroku, so it takes a minute to fire up.
                                 <br/>
                                 <br/>
-                                <a href="https://github.com/aedgar93/medium-react-new" target="_blank" rel="noopener noreferrer">Source Code</a><br/>
-                                <a href="https://github.com/aedgar93/medium-clone/tree/api" target="_blank" rel="noopener noreferrer">Server Code</a>
+                                <a href="https://github.com/aeherr/medium-react-new" target="_blank" rel="noopener noreferrer">Source Code</a><br/>
+                                <a href="https://github.com/aeherr/medium-clone/tree/api" target="_blank" rel="noopener noreferrer">Server Code</a>
                                 <br/>
                                 <a href="https://medium-clone-2.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
                             </div>
@@ -100,7 +100,7 @@ export default class Home extends Component {
                                 Please note, this is a work in progress... Work Buddies is a web application built using React and Firebase that pairs up coworkers on a weekly basis to do something together, like play ping pong or foosball. I hardly ever interact with anyone outside of my team at work and I wanted to create a tool to encourage people to get to know the rest of their office.
                                 <br/>
                                 <br/>
-                                <a href="https://github.com/aedgar93/WorkBuddies/tree/ae-personal" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aeherr/WorkBuddies/tree/ae-personal" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
 
                         </div>
@@ -111,7 +111,7 @@ export default class Home extends Component {
                                 This project is a Flutter/Dart app that can be run on iOS and Android. I created this project in order to learn Flutter. It is a simple application that allows users to select their favorite animal and see what zoos across America have that animal. I found the data by looking at zoo's websites and manually inputting it in to firebase, so it may not be up to date or accurate.
                                 <br/>
                                 <br/>
-                                <a href="https://github.com/aedgar93/show-me-the-otters" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aeherr/show-me-the-otters" target="_blank" rel="noopener noreferrer">Source Code</a>
                                 <br/>
                                 <ViewDemo source="./assets/ShowMeTheOtters.mov"/>
                             </div>
@@ -125,7 +125,7 @@ export default class Home extends Component {
                                 Food Tracker is a simple app that allows users to upload pictures of their meals and rate them. They can also view a list of all of their saved meals. This was my first project using Swift. I am planning on updating the app so that data is stored on firebase and users can log in other devices.
                                 <br/>
                                 <br/>
-                                <a href="https://github.com/aedgar93/FoodTracker" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aeherr/FoodTracker" target="_blank" rel="noopener noreferrer">Source Code</a>
                                 <br/>
                                 <ViewDemo source="./assets/FoodTracker.mov"/>
 
@@ -138,7 +138,7 @@ export default class Home extends Component {
                             <div className="experience-desc sub-info">
                                 Also build in React, which was probably overkill for something so small.
                                 <br/><br/>
-                                <a href="https://github.com/aedgar93/portfolio" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aeherr/portfolio" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
                         </div>
 
@@ -147,7 +147,7 @@ export default class Home extends Component {
                             <div className="experience-desc sub-info">
                                 This project was a code challenge for an interview, meant to give the employer insight in to my experience with Angular. I had a day to build a small app that displays a list of songs and allows the user to filter and sort. In case you were wondering, I aced the interview and got the job!
                                 <br/><br/>
-                                <a href="https://github.com/aedgar93/music_list" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aeherr/music_list" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
                         </div>
 
@@ -156,7 +156,7 @@ export default class Home extends Component {
                             <div className="experience-desc sub-info">
                                 In college I took a course to learn SAGE, a Python based mathematic programming language. For my final project I created a Pokemon Attack Simulator using SAGE, which used an XML file as a pseudo-database.
                                 <br/><br/>
-                                <a href="https://github.com/aedgar93/480_Final" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href="https://github.com/aeherr/480_Final" target="_blank" rel="noopener noreferrer">Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ export default class Home extends Component {
                         <div className="contact-label sub-info">Let's Talk!</div>
                         <div className="important-info">anna.edgar.herr@gmail.com</div>
                         <div className="social-icons">
-                            <a href="https://github.com/aedgar93" target="_blank" rel="noopener noreferrer"><SVG src="./assets/github.svg" className="social-icon"/></a>
+                            <a href="https://github.com/aeherr" target="_blank" rel="noopener noreferrer"><SVG src="./assets/github.svg" className="social-icon"/></a>
                             <a href="https://www.linkedin.com/in/annadedgar/" target="_blank" rel="noopener noreferrer"><SVG src="./assets/linkedin.svg" className="social-icon"/></a>
                         </div>
                     </div>
