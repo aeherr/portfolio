@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
 import 'video-react/dist/video-react.css';

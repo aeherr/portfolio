@@ -3,47 +3,62 @@ import Skill from './Skill'
 import Experience from './Experience'
 import SVG from 'react-inlinesvg'
 import ViewDemo from './ViewDemo'
+import SlideShow from './SlideShow'
 
 export default class Home extends Component {
     render() {
         return (
             <div className="home">
-                <div className="header-section has-bg">
+                <div className="header-section bg-alternating">
                     <div className="main-title">
                         <h1>Anna E Herr</h1>
                         <div className="important-info sub-info">Software Engineer</div>
                     </div>
                 </div>
-                <div className="content-section no-bg">
+                <div className="content-section bg-alternating">
                     <div className="section-label">
                         About
                         <SVG src="./assets/profile.svg" className="section-icon"/>
                         <div className="divider"></div>
                     </div>
                     <div className="content description">
-                        Hello, my name is Anna! I am an experienced Full Stack Software Engineer with a preference for Front End Mobile and Web. Most recently I have been working with JavaScript, Node JS, React, React Native, Angular JS (1), and Cascading Style Sheets (CSS). I also have previous experience in Java. <br/><br/>
+                        Hello, my name is Anna! I am an experienced Full Stack Software Engineer with a preference for front-end mobile and Web. Most recently I have been working with JavaScript, Node JS, React, React Native, Angular JS (1), and Cascading Style Sheets (CSS). I also have previous experience in Java. <br/><br/>
 
                         I'm always looking for opportunities in my career to learn new things and expand my skills outside of web development.
-                        A few examples of this include running customer training webinars, hosting customer Q&amp;A sessions, and travelling to conferences to assist the sales team by answering technical questions for potential customers. I have even had the opportunity to make a few sales myself!<br/><br/>
+                        A few examples of this include running customer training webinars, hosting customer Q&amp;A sessions, and traveling to conferences to assist the sales team by answering technical questions for potential customers. I have even had the opportunity to make a few sales myself!<br/><br/>
 
-                        I graduated from the University of Washington with a degree in Mathematics in 2013. While I was at UW I also took a variety of Computer Science, Applied Mathematics, Physics, and other Engineering courses. <br/><br/>
+                        I graduated from the University of Washington (when I was only 19!) with a degree in Mathematics in 2013. While I was at UW I also took a variety of Computer Science, Applied Mathematics, Physics, and other Engineering courses. <br/><br/>
                     </div>
                 </div>
-                <div className="content-section has-bg">
+                <div className="content-section bg-alternating">
                     <div className="section-label">
-                        Experience
-                        <SVG src="./assets/experience.svg" className="section-icon"/>
+                        Hobbies
+                        <SVG src="./assets/sewing-machine.svg" className="section-icon fill"/>
                         <div className="divider"></div>
                     </div>
                     <div className="content">
-                        <Experience title="Tang Capital Management" date="February 2018 - March 2021" description="Lead Software Engineer" />
-                        <Experience title="Newton Software" date="February 2016 - July 2017" description="Full Stack Software Engineer" />
-                        <Experience title="Xpanxion" date="December 2014 - February 2016" description="Senior Software Development Engineer in Test" />
-                        <Experience title="Bulb Inc" date="July 2013 - December 2014" description="Software Engineer" />
-                        <Experience title="MedBridge Education LLC" date="April 2012 - April 2013" description="Software Developer" />
+                        <div className="content description">
+                            When I'm not at work, you can usually find me making costumes, sewing, playing video games, watching sports (Go Seahawks!), or traveling.
+                            A few years ago, I was lucky enough to take 5 months off to travel to Italy, Greece, Turkey, Cyprus, Israel, Egypt, and South Africa. 
+                            <br/><br/>
+                            My husband Andrew and I recently bought a multi-family property in Ocean Beach. So these days most of my free time has been spent remodeling and learning how to be a landlord.
+                        </div>
+                       <SlideShow slides={[
+                           {src: './assets/hobbies/house.jpg', label: "My husband carrying me across the threshold of our new home"}, 
+                           {src: './assets/hobbies/fairy.jpg', label: "Renaissance Festival Costumes"},
+                           {src: './assets/hobbies/maya.jpg', label: "Visiting Mayan ruins with my brother"},
+                           {src: './assets/hobbies/catwoman.jpg', label: "Denver Comic Con, Catwoman from Gotham the TV show"},
+                           {src: './assets/hobbies/orcas.jpg', label: "Listening to the Seahawks game while van camping on Orcas Island, WA"},
+                           {src: './assets/hobbies/bulma.jpg', label: "Bulma from DragonBall Z"},
+                           {src: './assets/hobbies/rome.jpg', label: "Visiting the Colosseum in Rome"},
+                           {src: './assets/hobbies/comiccon.jpg', label: "My husband and I at Denver Comic Con as Mal and Kaylee from Firefly"},
+                           {src: './assets/hobbies/nola.jpg', label: "Bourbon Street New Orleans"},
+                           {src: './assets/hobbies/dbz.jpg', label: "My brother and I dressed as Goten and Trunks from DBZ. One of my first attempts making a costume from scratch"},
+                           {src: './assets/hobbies/finn.jpg', label: "Finn from Adventure Time and my husbands go-to kilt costume"},
+                           ]} />
                     </div>
                 </div>
-                <div className="content-section no-bg">
+                <div className="content-section bg-alternating">
                     <div className="section-label">
                         Skill Set
                         <SVG src="./assets/skills.svg" className="section-icon"/>
@@ -61,10 +76,24 @@ export default class Home extends Component {
 
                     </div>
                 </div>
-                <div className="content-section has-bg">
+                <div className="content-section bg-alternating">
+                    <div className="section-label">
+                        Experience
+                        <SVG src="./assets/experience.svg" className="section-icon"/>
+                        <div className="divider"></div>
+                    </div>
+                    <div className="content">
+                        <Experience title="Tang Capital Management" date="February 2018 - March 2021" description="Lead Software Engineer" />
+                        <Experience title="Newton Software" date="February 2016 - July 2017" description="Full Stack Software Engineer" />
+                        <Experience title="Xpanxion" date="December 2014 - February 2016" description="Senior Software Development Engineer in Test" />
+                        <Experience title="Bulb Inc" date="July 2013 - December 2014" description="Software Engineer" />
+                        <Experience title="MedBridge Education LLC" date="April 2012 - April 2013" description="Software Developer" />
+                    </div>
+                </div>
+                <div className="content-section bg-alternating">
                     <div className="section-label">
                         Education
-                        <SVG src="./assets/education.svg" className="section-icon"/>
+                        <SVG src="./assets/education.svg" className="section-icon fill"/>
                         <div className="divider"></div>
                     </div>
                     <div className="content">
@@ -72,7 +101,7 @@ export default class Home extends Component {
                         <Experience title="Wenatchee Valley College" date="2010" description="Associate of Arts and Science" />
                     </div>
                 </div>
-                <div className="content-section no-bg">
+                <div className="content-section bg-alternating">
                     <div className="section-label">
                         Portfolio
                         <div className="divider"></div>
@@ -161,7 +190,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="content-section contact no-bg">
+                <div className="content-section contact bg-alternating">
                     <div className="section-label">
                         Contact
                         <SVG src="./assets/contact.svg" className="section-icon contact-icon"/>

@@ -1,0 +1,280 @@
+/* mixins */
+@mixin section-coloring($primary, $light, $secondary) {
+  background-image: linear-gradient(to left top, $primary, $light);
+  color: $secondary;
+  svg * {
+    stroke: $secondary;
+  }
+
+  .fill svg * {
+    fill: $secondary;
+  }
+
+  .divider {
+    border-bottom: 4px solid $secondary;
+  }
+}
+
+/* header */
+.header-section {
+  min-height: 200px;
+  position: relative;
+}
+
+.bg-alternating:nth-child(odd), .has-bg {
+  @include section-coloring(#0B3C5D, #328CC1, white);
+}
+
+.bg-alternating:nth-child(even), .no-bg {
+  @include section-coloring(white, white, #0B3C5D);
+}
+
+.main-title {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.main-title h1 {
+  font-size: 4em;
+  margin: 10px 0;
+}
+
+.important-info {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.sub-info {
+  opacity: .85;
+}
+
+a, .demoLink {
+  color: inherit !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* sections */
+.content-section {
+  padding: 50px 5% 50px 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  color: var(--secondary-color);
+}
+
+
+/* Labels and icons */
+.section-label {
+  flex-basis: 30%;
+  flex-shrink: 0;
+  flex-grow: 1;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 2em;
+  padding-right: 10px;
+}
+
+.section-icon {
+  width: 40px;
+  display: block;
+  margin: 10px 0;
+  stroke: white;
+}
+
+
+.section-icon svg {
+  height: 100%;
+  width: 100%;
+}
+
+.contact .contact-icon * {
+  stroke: white !important;
+  fill: #0B3C5D;
+}
+
+
+.content {
+  flex: 1 0 auto;
+  min-width: 300px;
+  width: 70%;
+  box-sizing: border-box;
+  overflow: hidden;
+  word-wrap: wrap;
+  line-height: 1.5em;
+}
+
+.divider {
+  width: 150px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.no-bg .divider {
+  border-color: #0B3C5D;
+}
+
+
+/* experience and education */
+.experience {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #328CC1;
+  max-width: 700px;
+  width: 100%;
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+}
+
+.experience-date {
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+
+.experience-position {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.experience-desc {
+  margin: 10px 0;
+}
+
+/* skills */
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-set {
+  flex: 1 0 auto;
+  min-width: 250px;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.skill-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.skill-meter {
+  height: 15px;
+  width: 80%;
+  background-color: #deeef5;
+
+}
+
+.skill-meter-inner {
+  height: 100%;
+  background-image: linear-gradient(to left top, #0B3C5D, #328CC1)
+}
+
+/* contact */
+.contact {
+  border-top: 1px solid rgba(11,60,93, .5);
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  display: inline-block;
+   
+  svg {
+    width: 100%;
+    height: 100%;
+
+    * {
+      stroke: transparent !important;
+    }
+  }
+}
+
+.videoPlayer {
+  height: 500px;
+  overflow:hidden;
+}
+
+/* Slideshow */
+.slide-show-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  margin: 50px 0;
+
+  .slide-item {
+    margin: 0 20px;
+    position: relative;
+
+    &:first-child {
+      margin-left: 0 ;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+  }
+
+  .slide-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 2;
+  }
+
+  img {
+    height: 350px;
+  }
+
+  .slide-image-wrapper:after {
+    content:'';
+    position:absolute;
+    left:0; 
+    top:0;
+    width:100%; 
+    height:100%;
+    display:inline-block;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.5) 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.5) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.5) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.5) 100%); /* W3C */
+  }
+
+  &::-webkit-scrollbar {
+      width: 8px;
+  }
+  
+  &::-webkit-scrollbar-track {
+      background-color: #deeef5;
+      border-radius: 100px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    border: 5px solid transparent;
+    border-radius: 100px;
+    background-color: #328CC1;
+    background-clip: content-box;
+  }
+}
