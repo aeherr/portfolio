@@ -186,6 +186,7 @@ a, .demoLink {
   background-image: linear-gradient(to left top, #0B3C5D, #328CC1)
 }
 
+
 /* contact */
 .contact {
   border-top: 1px solid rgba(11,60,93, .5);
@@ -254,7 +255,7 @@ a, .demoLink {
     height: 350px;
   }
 
-  .slide-image-wrapper:after {
+  .slide-item:after {
     content:'';
     position:absolute;
     left:0; 

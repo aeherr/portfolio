@@ -37,7 +37,7 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content">
-                        <div className="content description">
+                        <div className="description">
                             When I'm not at work, you can usually find me making costumes, sewing, playing video games, watching sports (Go Seahawks!), or traveling.
                             A few years ago, I was lucky enough to take 5 months off to travel to Italy, Greece, Turkey, Cyprus, Israel, Egypt, and South Africa. 
                             <br/><br/>

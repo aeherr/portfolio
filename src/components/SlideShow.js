@@ -8,9 +8,7 @@ export default class SlideShow extends Component {
                     return (
                     <div className="slide-item">
                         <div className="slide-label">{slide.label}</div>
-                        <div className="slide-image-wrapper">
-                            <img key={`slide_${i}`} src={slide.src} alt={slide.desc}/>
-                        </div>
+                        <img key={`slide_${i}`} src={slide.src} alt={slide.desc}/>
                     </div>
                     )
                 })}
