@@ -22,7 +22,7 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content description">
-                        Hello, my name is Anna! I am an experienced Full Stack Software Engineer with a preference for front-end mobile and Web. Most recently I have been working with JavaScript, Node JS, React, React Native, Angular JS (1), and Cascading Style Sheets (CSS). I also have previous experience in Java. <br/><br/>
+                        Hello, my name is Anna! I am an experienced Full Stack Software Engineer with a preference for front-end mobile and web. Most recently I have been working with JavaScript, Node JS, React, React Native, Angular JS (1), and Cascading Style Sheets (CSS). I also have previous experience in Java. <br/><br/>
 
                         I'm always looking for opportunities in my career to learn new things and expand my skills outside of web development.
                         A few examples of this include running customer training webinars, hosting customer Q&amp;A sessions, and traveling to conferences to assist the sales team by answering technical questions for potential customers. I have even had the opportunity to make a few sales myself!<br/><br/>
