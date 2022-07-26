@@ -39,7 +39,7 @@ export default class Home extends Component {
                     <div className="content">
                         <div className="description">
                             When I'm not at work, you can usually find me making costumes, sewing, playing video games, watching sports (Go Seahawks!), or traveling.
-                            A few years ago, I was lucky enough to take 5 months off to travel to Italy, Greece, Turkey, Cyprus, Israel, Egypt, and South Africa. 
+                            In 2018, I was lucky enough to take 5 months off to travel to Italy, Greece, Turkey, Cyprus, Israel, Egypt, and South Africa. 
                             <br/><br/>
                             My husband Andrew and I recently bought a multi-family property in Ocean Beach. So these days most of my free time has been spent remodeling and learning how to be a landlord.
                         </div>
@@ -66,13 +66,15 @@ export default class Home extends Component {
                     </div>
                     <div className="content skills">
                         <Skill label="Javascript" percent="98" />
-                        <Skill label="Angular JS 1" percent="98" />
+                        <Skill label="TypeScript" percent="90" />
                         <Skill label="React/React Native" percent="98" />
                         <Skill label="Node JS" percent="95" />
                         <Skill label="CSS/SCSS" percent="98" />
-                        <Skill label="Java" percent="50" />
-                        <Skill label="Python" percent="25" />
-                        <Skill label="MySQL, GraphQL, MongoDB" percent="35" />
+                        <Skill label="Jest - Enzyme" percent="90" />
+                        <Skill label="Angular JS 1" percent="98" />
+                        <Skill label="Java" percent="35" />
+                        <Skill label="Python" percent="20" />
+                        <Skill label="MySQL, GraphQL, MongoDB" percent="30" />
 
                     </div>
                 </div>
@@ -83,6 +85,7 @@ export default class Home extends Component {
                         <div className="divider"></div>
                     </div>
                     <div className="content">
+                        <Experience title="The Washington Post - Arc XP" date="September 2021 - Present" description="Senior Software Engineer" />
                         <Experience title="Tang Capital Management" date="February 2018 - March 2021" description="Lead Software Engineer" />
                         <Experience title="Newton Software" date="February 2016 - July 2017" description="Full Stack Software Engineer" />
                         <Experience title="Xpanxion" date="December 2014 - February 2016" description="Senior Software Development Engineer in Test" />
@@ -201,7 +204,7 @@ export default class Home extends Component {
                         <div className="important-info">anna.edgar.herr@gmail.com</div>
                         <div className="social-icons">
                             <a href="https://github.com/aeherr" target="_blank" rel="noopener noreferrer"><SVG src="./assets/github.svg" className="social-icon"/></a>
-                            <a href="https://www.linkedin.com/in/annadedgar/" target="_blank" rel="noopener noreferrer"><SVG src="./assets/linkedin.svg" className="social-icon"/></a>
+                            <a href="https://www.linkedin.com/in/annaherr/" target="_blank" rel="noopener noreferrer"><SVG src="./assets/linkedin.svg" className="social-icon"/></a>
                         </div>
                     </div>
                 </div>
