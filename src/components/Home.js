@@ -66,12 +66,12 @@ export default class Home extends Component {
                     </div>
                     <div className="content skills">
                         <Skill label="Javascript" percent="98" />
-                        <Skill label="TypeScript" percent="90" />
                         <Skill label="React/React Native" percent="98" />
                         <Skill label="Node JS" percent="95" />
                         <Skill label="CSS/SCSS" percent="98" />
                         <Skill label="Jest - Enzyme" percent="90" />
                         <Skill label="Angular JS 1" percent="98" />
+                        <Skill label="TypeScript" percent="60" />
                         <Skill label="Java" percent="35" />
                         <Skill label="Python" percent="20" />
                         <Skill label="MySQL, GraphQL, MongoDB" percent="30" />
