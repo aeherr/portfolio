@@ -121,8 +121,6 @@ export default class Home extends Component {
                                 <br/>
                                 <a href="https://github.com/aeherr/medium-react-new" target="_blank" rel="noopener noreferrer">Source Code</a><br/>
                                 <a href="https://github.com/aeherr/medium-clone/tree/api" target="_blank" rel="noopener noreferrer">Server Code</a>
-                                <br/>
-                                <a href="https://medium-clone-2.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
                             </div>
 
                         </div>
