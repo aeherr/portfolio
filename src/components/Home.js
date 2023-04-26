@@ -116,9 +116,6 @@ export default class Home extends Component {
                                 This project is a React based web application with Express, NodeJS, and MongoDB on the server side. The goal was to implement the basic features from Medium.com. Please <a href="https://github.com/aedgar93/medium-react-new" target="_blank" rel="noopener noreferrer">click here</a> for more detailed information on the features I built for this project.
                                 <br/>
                                 <br/>
-                                Please note the demo may be slow to load. I am hosting it for free on Heroku, so it takes a minute to fire up.
-                                <br/>
-                                <br/>
                                 <a href="https://github.com/aeherr/medium-react-new" target="_blank" rel="noopener noreferrer">Source Code</a><br/>
                                 <a href="https://github.com/aeherr/medium-clone/tree/api" target="_blank" rel="noopener noreferrer">Server Code</a>
                             </div>
